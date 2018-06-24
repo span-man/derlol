@@ -1,0 +1,131 @@
+module.exports = [
+    { url: "http://www.derlol.top", name: "der" },
+    { url: "http://fanyi.youdao.com/", name: "（翻译）有道翻译" },
+    { url: "http://fanyi.baidu.com/", name: "（翻译）百度翻译" },
+
+    { url: "http://font.chinaz.com", name: "（字体）站长素材" },
+    { url: "http://www.hellofont.cn", name: "（字体）字由" },
+    { url: "http://fontface.codeandmore.com/", name: "（字体）字体转换网站" },
+    { url: "http://www.popzitizh.com/", name: "（字体）字体转换为图片1" },
+    { url: "http://www.diyiziti.com/", name: "（字体）字体转换为图片2" },
+    { url: "http://www.fontconverter.org/", name: "（字体）字体转为网页可用的三种格式" },
+
+    { url: "http://www.uugai.com", name: "（商标）自定义商标网" },
+    { url: "http://www.58pic.com/", name: "（图片）千图网" },
+    { url: "https://www.pexels.com/", name: "（图片）国外素材图 pexels" },
+    { url: "https://pixabay.com/", name: "（图片）国外素材图 pixabay" },
+
+
+    { url: "https://www.kuvva.com", name: "（壁纸）插画师作品 kuvva" },
+    { url: "https://www.vladstudio.com/zh/wallpapers/", name: "（壁纸）多桌面壁纸" },
+    { url: "http://wallls.com/", name: "（壁纸）国外壁纸网站 wallss" },
+    { url: "https://www.textures.com/", name: "（图片 素材）物体表面材质 textures" },
+
+
+    { url: "https://ecomfe.github.io/zrender-doc/public/api.html", name: "（canvas框架）ZRender api" },
+
+    { url: "https://huke88.com/course/2/8325.html", name: "(c4d学习) 虎嗅网 c4d学习" },
+
+    { url: "https://www.flaticon.com/", name: "(图标) 扁平化图标 flation" },
+
+    { url: "https://www.bilibili.com/video/av4050443/index_15.html#page=15", name: "（python）小甲鱼 " },
+    { url: "http://pygame.org/download.shtml", name: "（python 模块）pygame模块下载 " },
+    {
+        url: "https://www.bilibili.com/video/av7635196/?from=search&seid=10653502385195071466",
+        name: "（scrapy 框架 爬虫）慢速男"
+    },
+
+    { url: "http://www.imooc.com/learn/47", name: "（java）慕课网java spring" },
+    {
+        url: "http://blog.csdn.net/industriously/article/details/52851588",
+        name: "（java 软件）使用IntelliJ IDEA开发Spring MVC HelloWorld"
+    },
+
+    { url: "http://www.qingpingshan.com/jb/javascript/358694.html", name: "(nodejs) node 爬虫" },
+    {
+        url: "https://www.bilibili.com/video/av10274152/?from=search&seid=5151579666508140933",
+        name: "(php) 视频教程"
+    },
+    { url: "https://www.w3cschool.cn/php/php-mysql-connect.html", name: "（php）最新api教程" },
+    { url: "http://blog.csdn.net/qq_34341290/article/details/52964215", name: "（php csdn）pdo增删改查文字教程" },
+
+    {
+        url: "http://www.oracle.com/technetwork/cn/database/enterprise-edition/downloads/index.html",
+        name: "(数据库 oracle) 下载"
+    },
+
+    { url: "https://processon.com/", name: "（软件安装 流程图绘制 process）process on " },
+
+    { url: "https://www.cnblogs.com/landeanfen/p/4976838.html", name: "(bootstrap 框架 组件 ) bootstrap table" },
+
+    { url: "http://www.w3school.com.cn/sql/sql_wildcards.asp", name: "(sql) sql学习w3c" },
+    { url: "http://www.lxway.com/4042802552.htm", name: "（sql） 编程资料库" },
+
+    { url: "http://blog.csdn.net/u013088062/article/details/50130991", name: "（软件 pycharm）调试" },
+    { url: "https://www.jianshu.com/p/b4390919a5b5", name: "(软件 设置) webstorm es6语法支持" },
+    { url: "http://www.iocoder.cn/?jianshu", name: "（程序 java等）芋道源码 纯源码解析博客" },
+
+
+    { url: "https://open.alipay.com/channel/miniIndex.htm", name: "（支付宝小程序）入口" },
+    { url: "https://docs.alipay.com/mini/introduce", name: "（支付宝小程序）开放平台" },
+
+    { url: "https://www.w3cschool.cn/weixinapp/weixinapp-notice.html#消息管理", name: "(微信小程序)小程序发送模板消息" },
+    { url: "http://blog.csdn.net/yelin042/article/details/71435628", name: "(微信小程序)上拉加载下拉刷新" },
+    { url: "http://kf.qq.com/faq/161222NneAJf161222U7fARv.html", name: "(微信小程序) 微信商户cert安全证书" },
+
+    {
+        url: "https://beian.aliyun.com/order/orderStatusDetail.htm?spm=a3c00.7621333.a3c20.4.4117c52bRW5rfe&baOrderId=22110592432",
+        name: "（域名 备案 阿里云）阿里云备案"
+    },
+
+    { url: "http://z-dm.jd.com/", name: "（京东众筹）京东众筹新版后台登陆" }
+
+    , {
+        "url": "https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/",
+        "name": "（js instanceof）JavaScript instanceof 运算符深入剖析"
+    },
+    { "url": "http://www.w3school.com.cn/jquery/jquery_slide.asp", "name": "(插件 jq)jQuery 效果 - 滑动" },
+    { "url": "http://www.baidu.com", "name": "百度" }, {
+        "url": "http://huya.com",
+        "name": "（直播 主播）虎牙"
+    }, { "url": "https://www.bilibili.com/", "name": "（视频）哔哩哔哩" }, {
+        "url": "https://www.zhihu.com/question/30760311",
+        "name": "（python pycharm 软件）pycharm使用技巧 "
+    }, {
+        "url": "https://www.huya.com/dongxiaosa",
+        "name": "（虎牙）董小飒"
+    }, {
+        "url": "http://blog.csdn.net/guaiwoxia/article/details/68940912",
+        "name": "（webpack）webpack快速入门文档"
+    }, {
+        "url": "https://www.zhihu.com/question/21414417",
+        "name": "（scrapy）scrapy中文处理"
+    }, {
+        "url": "http://blog.csdn.net/gy_u_yg/article/details/73132171",
+        "name": "(js)原生js实现图片懒加载"
+    }, {
+        "url": "http://blog.csdn.net/b1244154318/article/details/52674773",
+        "name": "（react）添加样式的几种方式"
+    }, {
+        "url": "https://jingyan.baidu.com/article/4f7d5712abf4621a20192702.html",
+        "name": "（3dmax）激活教程"
+    }, {
+        "url": "http://docs.python-requests.org/zh_CN/latest/user/quickstart.html",
+        "name": "(api python)requests"
+    }, {
+        "url": "http://blog.csdn.net/yangying496875002/article/details/73603303",
+        "name": "（idea java）java编辑器的安装"
+    }, {
+        "url": "https://www.bilibili.com/video/av5605348/?from=search&seid=14089744060656657368#page=10",
+        "name": "（3dmax）蜗牛 教程"
+    }, { "url": "https://wenku.baidu.com/view/d2fdff0ff12d2af90242e600.html", "name": "（面部3d）识别图片变3d" },
+    { "url": "https://www.bilibili.com/video/av14678829/#page=16", "name": "（java）java教程质量比较高" },
+    { "url": "http://www.jetbrains.com/", "name": "jetbrains 官网" },
+    {
+        "url": "http://lol.qq.com/act/a20170820transfer/?e_code=369065&atm_cl=ad&atm_pos=16601&idata_id=170648",
+        "name": "(lol) 道具跨区领取"
+    },
+    { "url": "https://www.apowersoft.cn/free-online-screen-recorder", "name": "（屏幕录制）在线屏幕录制软件" },
+    { "url": "https://m.igetget.com/column/free/share/id/2", "name": "静雅思听" }, { "url": "https://t.bilibili.com/", "name": "哔哩哔哩我的订阅" },
+    { "url": "https://www.cnblogs.com/yangecnu/p/Learning-KinectSDK.html", "name": "Kinect开发" }, { "url": "https://vuex.vuejs.org/zh-cn/", "name": "Vuex" },
+    { "url": "http://blog.csdn.net/a359877454/article/details/52679041", "name": "vs2015一键卸载所有组件工具，彻底卸载干净。" }, { "url": "http://blog.csdn.net/guxiaonuan/article/details/73775519?locationNum=2&fps=1", "name": "（VS2015安装教程）带图解+下载地址+超详细" }, { "url": "https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/class-library-wpf", "name": "（api）WPF" }, { "url": "https://electronjs.org/docs/tutorial/about", "name": "(api 文档)Electron" }, { "url": "https://nodelover.me/", "name": "node 爱好者" }, { "url": "http://blog.csdn.net/hj7jay/article/details/51011269", "name": "贪吃蛇" }, { "url": "https://python123.io/", "name": "python123" }, { "url": "https://www.icourse163.org/", "name": "(中国大学)mooc" }, { "url": "https://segmentfault.com/a/1190000011966867", "name": "（js） 各种函数库" }, { "url": "https://cnodejs.org/topic/58c21b7806dbd608756d0bfa", "name": "atom 实用插件总结" }, { "url": "https://www.ico.la/#downico", "name": "ico" }, { "url": "http://www.jb51.net/article/97549.htm", "name": "vue watch和 ob.js" }, { "url": "https://www.yoursupin.com/siro-3394.html", "name": "sw" }, { "url": "http://lol.qq.com/act/a20180325hnafbd/index.htm?e_code=404117&ADTAG=lolweb.v2", "name": "（lol）鸡里奥" }, { "url": "http://baiduyun.6miu.com/", "name": "百度云搜索" }, { "url": "http://komavideo.com/", "name": "（js）小马视频" }, { "url": "http://www.dayin.la/product/37372.html", "name": "(3d 打印)iphone 6s" }, { "url": "https://blog.csdn.net/fe_dev/article/details/78450844", "name": "渐变色的文字" }, { "url": "http://cnodejs.org/topic/5640b80d3a6aa72c5e0030b6", "name": "async await 异步" }, { "url": "http://www.iqiyi.com/v_19rrk2h5lo.html?flashvars=videoIsFromQidan%3Ditemviewclk_a#vfrm=5-6-0-1", "name": "武林外传" }, { "url": "https://router.vuejs.org/zh-cn/", "name": "vue-router文档" }, { "url": "http://www.cgmodel.com/works/model-list.html?rec=all&free=1&page=2283", "name": "模型网" }, { "url": "http://lol.qq.com/act/a20171031giftdown/index.html", "name": "(lol) 领奖" }, { "url": "http://www.jcmkj.cn/", "name": "18650电池" }, { "url": "http://mpvue.com/", "name": "(vue 小程序)MpVue" }, { "url": "http://lbsyun.baidu.com/index.php?title=webapi/ip-api", "name": "（百度 地图）web接口" }, { "url": "https://angular.io/guide/quickstart", "name": "（angular）快速开始" }, { "url": "http://www.xh127.com/read-6529", "name": "（电影 美剧 英剧）xh127" }, { "url": "http://www.ttmeiju.vip/", "name": "（美剧 英剧 外剧）" }, { "url": "http://www.sciencemag.org", "name": "（科学 ai）Science" }, { "url": "http://www.polymer.cn/sci/kjxw12606.html", "name": "隔热薄膜" }, { "url": "http://www.sciencemag.org/news/2017/02/cheap-plastic-film-cools-whatever-it-touches-10-c", "name": "（Science）TPX隔热材料" }, { "url": "https://www.cilisoo.com", "name": "（电影 搜索）磁力搜" }, { "url": "http://www.bd1080pba.com/", "name": "（电影 美剧 外剧）1080pba" }, { "url": "https://kotlinlang.org", "name": "（Kotlin 官网）Kotlin" }, { "url": "qxw1590700472.my3w.com", "name": "（阿里云）临时域名" }, { "url": "https://www.jianshu.com/p/a6f7b391a0b8", "name": "（webwiew）android" }, { "url": "https://www.cnblogs.com/zdz8207/archive/2013/02/27/android-tabhost-notitlebar.html", "name": "（webview android）去掉顶部的标题栏" }, { "url": "http://mahua.jser.me/", "name": "（md）makedowm" }, { "url": "https://stackedit.io/app#", "name": "(md)StackEdit" }, { "url": "https://www.oschina.net/news/50322/markdown-editors-and-tools", "name": "（md）makedown合集" }, { "url": "https://www.cnblogs.com/yominhi/p/7039795.html", "name": "（cnpm） 如何安装cnpm" }, { "url": "https://blog.csdn.net/achenyuan/article/details/70521305", "name": "前端框架Vue.js的使用及具体页面跳转时的参数传递" }, { "url": "http://api.map.baidu.com/lbsapi/getpoint/index.html", "name": "（地图）百度地图位置拾取器" }, { "url": "https://www.jianshu.com/p/dc5a8347bec8", "name": "(cnpm for mac) 简书" }, { "url": "https://cloud.baidu.com/event/mid-yearPromotion/index.html?track=cp:nsem|pf:pc|pp:nsem-huodong-nianzhongdacu|pu:BCC-tongyongci-fuwuqi-zuyong|ci:nzdcbcc|kw:2047892", "name": "（百度云）百度云促销" }, { "url": "https://aws.amazon.com/cn/free/?sc_channel=PS&sc_campaign=acquisition_CN&sc_publisher=baidu&sc_category=pc&sc_medium=cloud_computing_generic_nb&sc_content=%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8_generic_e&sc_detail=%E5%85%8D%E8%B4%B9linux%E6%9C%8D%E5%8A%A1%E5%99%A8&sc_segment=100014121&sc_matchtype=phrase&sc_country=CN&s_kwcid=AL!4422!88!14697817371!!41813526378&ef_id=Wy3ZUwAABWStAKQq:20180623052331:s", "name": "（服务器）亚马逊免费12月的服务器" }, { "url": "https://blog.csdn.net/preciousmybe/article/details/79108659", "name": "(linux 实例工具 )替代Xshell的良心国产软件 FinalShell" }]
