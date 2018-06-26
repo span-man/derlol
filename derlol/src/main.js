@@ -10,7 +10,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 Vue.config.productionTip = false
 Vue.use(VueAxios,axios)
-
+// Vue.prototype.domain="http://www.derlol.top";
+Vue.prototype.domain="http://localhost:2999";
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

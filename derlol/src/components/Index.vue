@@ -1,8 +1,8 @@
 
 <template>
 <div class="index">
-    <HeadNav></HeadNav>
-    <BodyLink></BodyLink>
+    <HeadNav v-on:search="search($event)"></HeadNav>
+    <BodyLink ref="child"></BodyLink>
 </div>
    
 </template>
@@ -16,6 +16,12 @@ export default {
   components:{
     HeadNav,
     BodyLink
+  },
+  methods:{
+    search(_searchStr){
+      console.log("index--->",_searchStr)
+      this.$refs.child.search(_searchStr)
+    }
   }
 };
 </script>
