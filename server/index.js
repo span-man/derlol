@@ -27,7 +27,11 @@ router.post('/userLogin', async (ctx, next) => {
 })
 
 router.get('/getLinks', async (ctx, next) => {
-    ctx.response.body = allFunc.getLinks()
+    ctx.response.body = allFunc.getLinks(ctx, next)
+})
+
+router.post('/addLink', async (ctx, next) => {
+    ctx.response.body = allFunc.addLink(ctx, next)
 })
 
 app.use(router.routes());
