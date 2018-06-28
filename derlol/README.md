@@ -32,7 +32,8 @@ npm test
 ~~~js
 https://github.com/span-man/derlol.git
 ~~~
-
+# 此路径存放网站位置
+# linux cd  /usr/local/webserver/nginx/html/static
 
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

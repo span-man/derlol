@@ -1,79 +1,64 @@
 <template>
     <div class="home">
-        <div style="clear: both;  ">
-        <div class="fl" v-for="(x,index) in all_star" :key="index">
-            <a :href="x.url" target="_blank">
-                <span style="display: block; text-align: center;">{{x.name}}</span>
-            </a>
+        <div class="content dd-row">
+            <div class="item" v-for="(x,index) in all_star" :key="index">
+                <a :href="x.url" >
+                    {{x.name}}
+                </a>
+            </div>
         </div>
-    </div>
-    <div style="clear: both;"></div>
     </div>
 </template>
 <script>
 export default {
-    data(){
-        return{
-            all_star: [
-                {
-                    "url": "/#/index",
-                    "name": "all-link"
-                }, 
-            ]
-        }
-    }    
-}
+  data() {
+    return {
+      all_star: [
+        {
+          url: "/#/index",
+          name: "all-link"
+        },
+      ]
+    };
+  }
+};
 </script>
 <style scoped>
-   * {
-            font-family: "微软雅黑";
-
-        }
-
-        a {
-            text-decoration: none;
-            color: #666;
-        }
-
-        body {
-            background-image: url("http://wallpaperscraft.com/image/league_of_legends_lol_elise_girl_armor_claws_minimalism_97279_1600x1200.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
-        }
-
-        article {
-            margin: 200px auto;
-            width: 1200px;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.3);
-        }
-
-        .fl {
-            float: left;
-            width: 300px;
-            box-sizing: border-box;
-            padding: 10px;
-            display: block;
-            height: 80px;
-        }
-
-     
-
-        .home .fl {
-            transition: 0.3s;
-        }
-
-        .home .fl:hover {
-
-            transform: translate(0px, 10px) scale(1.2, 1.2);
-        }
-
-        .home .fl a {
-            display: block;
-            background: #52935c;
-            padding: 10px 20px;
-            font-size: 30px;
-            color: white;
-        }
+.home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(49, 39, 39, 0.8);
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508002254441&di=9da8586471a29cf4d25e6dc97db66372&imgtype=0&src=http%3A%2F%2Fwww.005.tv%2Fuploads%2Fallimg%2F161101%2F1436002615-7.jpg"); background-size: cover;
+}
+.content {
+  margin: 100pt auto;
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.3);
+  min-height: 460pt;
+  padding: 10pt;
+  flex-wrap: wrap;
+}
+.content .item  {
+    margin: 10pt;
+     width: 100pt;
+  height: 40pt;
+}
+.content .item a {
+  display: block;
+  color: wheat;
+  width: 100pt;
+  height: 40pt;
+  background-color: #444;
+  box-shadow: 0 0 5pt blue;
+  border: 1pt solid transparent;
+  text-align: center;
+  line-height: 40pt;
+  transition: 0.1s;
+}
+.content .item a:hover {
+    transform: translateX(10px) ;
+}
 </style>

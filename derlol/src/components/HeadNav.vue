@@ -1,5 +1,5 @@
 <template>
-<div class="headNav dd-row dd-center">
+<div class="headNav dd-row dd-center dd-fixed-top">
   
         <div class="square" @click="login"></div>
         <PopLayer ref="child"></PopLayer>
@@ -25,7 +25,7 @@ import PopAddLink from "@/components/PopAddLink";
 export default {
   data() {
     return {
-      searchStr:''
+      searchStr: ""
     };
   },
   components: {
@@ -42,8 +42,8 @@ export default {
 
     // search 搜索
     search() {
-      console.log("searchStr--->",this.searchStr)
-      this.$emit('search',this.searchStr)
+      console.log("searchStr--->", this.searchStr);
+      this.$emit("search", this.searchStr);
       // let value = $("#s").val();
       // let arr = dataList;
       // arr.map(json => {
@@ -56,7 +56,6 @@ export default {
       // vm.all_star = arr;
     },
     clickLabel(val) {
-      $("#s").val(val);
       this.search();
     }
   }

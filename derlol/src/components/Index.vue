@@ -2,6 +2,7 @@
 <template>
 <div class="index">
     <HeadNav v-on:search="search($event)"></HeadNav>
+    <div style="height:55px;"></div>
     <BodyLink ref="child"></BodyLink>
 </div>
    
@@ -19,7 +20,7 @@ export default {
   },
   methods:{
     search(_searchStr){
-      console.log("index--->",_searchStr)
+      // console.log("_searchStr--->",_searchStr)
       this.$refs.child.search(_searchStr)
     }
   }
